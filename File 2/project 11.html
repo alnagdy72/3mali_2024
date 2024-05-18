@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 9 </title>
+</head>
+<body>
+    
+
+    <!-- 
+        Input > حقل تسجيل 
+       value > بنجيب بيها القيمة 
+       oncick > شرحناها مرة 
+     -->
+
+
+     <input type="text" id="fname">
+     <br>
+     <button onclick="username()">تسجيل</button>
+
+
+
+
+     <script>
+       let name = document.getElementById('fname') ;
+
+       console.log(name);
+       function username(){
+        alert("WElcome  " + name.value)
+       }
+     </script>
+
+
+
+
+
+</body>
+</html>
